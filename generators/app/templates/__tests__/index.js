@@ -1,4 +1,4 @@
-import lib from '../src'
+const lib = require('../src')
 
 test('lib should be tested', () => {
   expect(lib).toBeDefined()
