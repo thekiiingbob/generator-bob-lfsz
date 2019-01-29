@@ -35,9 +35,12 @@ module.exports = class extends Generator {
       mv('gitignore', '.gitignore')
       mv('npmrc', '.npmrc')
       mv('prettierignore', '.prettierignore')
-      mv('prettierrc', '.prettierrc')
-      mv('eslintrc.json', '.eslintrc.json')
+      mv('prettierrc.js', '.prettierrc.js')
+      mv('eslintrc.js', '.eslintrc.js')
+      mv('eslintignore', '.eslintignore')
       mv('_package.json', 'package.json')
+      mv('lint-staged.config.js', 'lint-staged.config.js')
+      mv('jest.config.js', 'jest.config.js')
     })
   }
   install() {

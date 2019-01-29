@@ -7,7 +7,7 @@
     "test": "jest",
     "precommit": "lint-staged",
     "format": "prettier --write \"**/*.+(js|md|ts|css|sass|less|graphql|yml|yaml|scss|json|vue)\"",
-    "lint": "eslint ."
+    "lint": "eslint --fix ."
   },
   "devDependencies": {
     "esdoc": "^0.5.2",
@@ -22,11 +22,9 @@
     "prettier": "^1.7.0"
   },
   "dependencies": {
-    "chalk": "^2.3.0",
-    "debug": "^3.0.1",
-    "puppeteer": "^1.11.0"
+    "chalk": "^2.3.0"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
